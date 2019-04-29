@@ -11,8 +11,8 @@
     </div>
 </template>
 <script>
-    export default {}
+export default {}
 </script>
-<style>
-  @import url("nav.css");
+<style lang="less">
+  @import url("nav.less");
 </style>

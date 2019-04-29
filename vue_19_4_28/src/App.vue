@@ -1,11 +1,18 @@
 <template>
-  <Nav></Nav>
+  <div>
+    <Nav/>
+    <Hea/>
+  </div>
 </template>
 <script>
-  import Nav from './TopNav/Nav.vue'
-    export default {
-      components:{Nav}
-    }
+import Nav from './Public/TopNav'
+import Hea from './Public/Header'
+export default {
+  components: {
+    Nav,
+    Hea
+  }
+}
 </script>
 <style>
 
