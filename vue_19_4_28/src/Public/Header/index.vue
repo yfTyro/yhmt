@@ -25,4 +25,13 @@ export default {
     vertical-align: middle;
     margin-right: 185px;
   }
+
+  @media (max-width: 992px) {
+    .search-centainer{
+      text-align: center;
+    }
+    .logo{
+      display: none;
+    }
+  }
 </style>

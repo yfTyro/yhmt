@@ -1,16 +1,17 @@
 <template>
   <div>
-    <Nav/>
-    <Hea/>
+    <TopNav/>
+    <Header/>
+    <MainNav/>
   </div>
 </template>
 <script>
-import Nav from './Public/TopNav'
-import Hea from './Public/Header'
+import TopNav from './Public/TopNav'
+import Header from './Public/Header'
+import MainNav from './Public/MainNav'
 export default {
   components: {
-    Nav,
-    Hea
+    TopNav, Header, MainNav
   }
 }
 </script>

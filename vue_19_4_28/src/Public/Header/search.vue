@@ -27,7 +27,7 @@ export default {}
     vertical-align: middle;
   }
   .search{
-    width:428px;
+    width:100%;
     height:42px;
     border:2px solid @red_1;
     position: relative;
@@ -37,8 +37,10 @@ export default {}
     height: 100%;
     line-height: 38px;
     padding-left: 30px;
+    padding-right: 90px;
     color: #aaa;
     font-size: 14px;
+    border:0;
     background:url("../../static/images/search.png") no-repeat 8px center;
     &:focus{
       outline: none;
@@ -60,5 +62,17 @@ export default {}
   .search-text{
     margin-top:8px;
     color: #333;
+  }
+  @media (max-width: 748px) {
+    .search-box{
+      max-width: 100%;
+      text-align: left;
+    }
+    .search{
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
   }
 </style>
