@@ -1,6 +1,8 @@
 <template>
     <div class="content search-centainer">
-      <img class="logo" :src="Logo">
+      <router-link to="/">
+        <img class="logo" :src="Logo">
+      </router-link>
       <Search/>
     </div>
 </template>

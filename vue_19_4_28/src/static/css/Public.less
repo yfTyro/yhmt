@@ -3,12 +3,86 @@
   margin: 0;
   box-sizing:border-box
 }
+a{
+  text-decoration:none;
+  out-line: none
+}
 .content{
   max-width: 1200px;
   margin:0 auto;
+}
+//显示
+.show{
+  display: block;
+}
+//隐藏
+.hide{
+  display: none;
+}
+//浮动
+.fleft{
+  float: left;
+}
+.fright{
+  float: right;
 }
 //清除浮动
 .fix:after{
   content: "";
   clear: both;
+}
+//超出两行隐藏
+.beyond {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+//超出一行隐藏
+.recommend-goods-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+//图标
+.icon{
+  background: url("../images/tubiao.png") no-repeat;
+  display: inline-block;
+}
+//菜单
+.icon-classify{
+  width:18px;
+  height: 14px;
+  background-position: -20px -2px;
+  margin-right: 5px;
+}
+//三角形
+.icon-triangle{
+  width: 6px;
+  height:12px;
+  background-position: -48px -2px;
+}
+
+//字体大小
+.yhmt-font-size-12{
+  font-size: 12px;
+}
+.yhmt-font-size-14{
+  font-size: 14px;
+}
+.yhmt-font-size-12{
+  font-size: 12px;
+}
+.yhmt-font-size-16{
+  font-size: 16px;
+}
+.yhmt-font-size-18{
+  font-size: 18px;
+}
+.yhmt-font-size-24{
+  font-size: 24px;
+}
+.yhmt-color-red{
+  color: #ff2d52;
 }

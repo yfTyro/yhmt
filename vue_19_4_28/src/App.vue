@@ -2,16 +2,16 @@
   <div>
     <TopNav/>
     <Header/>
-    <MainNav/>
+    <router-view name="MainNav"></router-view>
+    <router-view></router-view>
   </div>
 </template>
 <script>
 import TopNav from './Public/TopNav'
 import Header from './Public/Header'
-import MainNav from './Public/MainNav'
 export default {
   components: {
-    TopNav, Header, MainNav
+    TopNav, Header
   }
 }
 </script>
